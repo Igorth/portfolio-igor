@@ -1,5 +1,5 @@
 /* GENERAL */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -313,7 +313,7 @@ section {
 .experience-sub-title {
   color: rgb(185, 185, 185);
   font-weight: 600;
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 
@@ -359,9 +359,10 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 200px; /* Define a altura fixa */
+  object-fit: cover; /* Mantém o aspecto da imagem e cobre o container */
+  border-radius: 10px; /* Deixa as bordas arredondadas */
 }
 
 .project-title {
@@ -372,6 +373,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.project-btn:hover {
+  text-decoration: none;
 }
 
 /* CONTACT */
