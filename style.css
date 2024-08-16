@@ -360,7 +360,7 @@ article .icon {
 
 .project-img {
   width: 100%;
-  height: 200px; /* Define a altura fixa */
+  height: 300px; /* Define a altura fixa */
   object-fit: cover; /* Mantém o aspecto da imagem e cobre o container */
   border-radius: 10px; /* Deixa as bordas arredondadas */
 }
